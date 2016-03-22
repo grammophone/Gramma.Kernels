@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Gramma.Kernels.Kernel&lt;T&gt;">
+    <Position X="2.75" Y="0.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAAAAAAAAIAAAAYAEAAAAAAAAAAAAAQCAAACAAAAA=</HashCode>
+      <FileName>Kernel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gramma.Kernels.LinearKernel" Collapsed="true">
+    <Position X="2.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAAAAAAAAIAAQAAAAAAAAAAAAAAAEAQCAAACAAAAA=</HashCode>
+      <FileName>LinearKernel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gramma.Kernels.MappingKernel&lt;T, S&gt;" Collapsed="true">
+    <Position X="5.5" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QEAAAAAAAAAIAAAAAAAAQAAAAAAAAAAAQCAACCAAAAA=</HashCode>
+      <FileName>MappingKernel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gramma.Kernels.OffsetKernel&lt;T&gt;" Collapsed="true">
+    <Position X="8" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAgAAAAAAIAAACQAEAAAAAAAAAAAAAQCAAACAAgAA=</HashCode>
+      <FileName>OffsetKernel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gramma.Kernels.RbfKernel" Collapsed="true">
+    <Position X="4.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wEAAAAAAAAAIAAAAAACAAAAAAAAAAAEAQCAAACAAAAA=</HashCode>
+      <FileName>RbfKernel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gramma.Kernels.ScaledKernel&lt;T&gt;" Collapsed="true">
+    <Position X="3.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAAABAAAAIAQAAIAAAAAAAAAAAAAAAQCAAACAAAAA=</HashCode>
+      <FileName>ScaledKernel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gramma.Kernels.SparseLinearKernel" Collapsed="true">
+    <Position X="6.75" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QEAAAAAAAAAIAAQAAAAAAAAAAAAAAAAAQCAAACAAAAA=</HashCode>
+      <FileName>SparseLinearKernel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gramma.Kernels.SparseRbfKernel" Collapsed="true">
+    <Position X="2.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wEAAAAAAAAAIAAAAAACAAAAAAAAAAAAAQCAAACAAAAA=</HashCode>
+      <FileName>SparseRbfKernel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gramma.Kernels.StringKernel&lt;C&gt;" Collapsed="true">
+    <Position X="1.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAAAAAAEAIAQAAAAAAAAAAAAAAAAAAQCAAQCAAAAA=</HashCode>
+      <FileName>StringKernel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gramma.Kernels.SumKernel&lt;T&gt;" Collapsed="true">
+    <Position X="4.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UEAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAQCAAACAAAAA=</HashCode>
+      <FileName>SumKernel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gramma.Kernels.GaussianKernel&lt;T&gt;" Collapsed="true">
+    <Position X="6.75" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>wEAAAAAAAAAIAAAAAACAAAAAEAAAAAAAQCAAACAAAAA=</HashCode>
+      <FileName>GaussianKernel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
