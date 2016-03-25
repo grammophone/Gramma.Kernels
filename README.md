@@ -9,9 +9,9 @@ In order for a kernel implementation to be valid, meaning that there exists some
 
 The above expression is offered by `Kernel<T>` implementations via the `Compute` method. But implementations also offer method `ComputeSum` which calculates weighted sums of kernel evaluations:
 
-![representer form](http://s16.postimg.org/b4x4njwo1/Representer_form.png)
+![representer form](http://s7.postimg.org/wu8zhf81z/Representer_form.png)
 
-The above 'representer form' is what typically all kernel methods arrive to after training. In theory, it could be computed calling the `Compute` method then scaling and summing the results, but for many kernels there can be lots of savings computing the 'representer form' directly. The c<sub>i</sub> and x<sub>i</sub> components of the formula are registered in the kernel using the `AddComponent` method. These components are the training state of the kernel method that uses the kernel. In order to save and load this state, use standard .NET serialization on the kernel.
+The above 'representer form' is what typically all kernel methods arrive to after training. In theory, it could be computed calling repeatedly the `Compute` method then scaling and summing the results, but for many kernels there can be lots of savings computing the 'representer form' directly. The c<sub>i</sub> and x<sub>i</sub> components of the formula are registered in the kernel using the `AddComponent` method. These components are the training state of the kernel method that uses the kernel. In order to save and load this state, use standard .NET serialization on the kernel.
 
 The hierarchy of the included kernels follows:
 
@@ -30,4 +30,3 @@ The included kernels are:
 This project depends on the following projects, which must reside in sibling directories:
 * [Gramma.Vector](https://github.com/grammophone/Gramma.Vector)
 * [Gramma.Indexing](https://github.com/grammophone/Gramma.Indexing)
-
