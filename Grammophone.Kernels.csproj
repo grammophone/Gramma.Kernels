@@ -8,8 +8,8 @@
     <ProjectGuid>{D025D18B-E77C-454C-9D1A-0F6B22A51273}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Gramma.Kernels</RootNamespace>
-    <AssemblyName>Gramma.Kernels</AssemblyName>
+    <RootNamespace>Grammophone.Kernels</RootNamespace>
+    <AssemblyName>Grammophone.Kernels</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -22,7 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Gramma.Kernels.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\Grammophone.Kernels.XML</DocumentationFile>
     <NoWarn>1591</NoWarn>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
@@ -33,7 +33,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Gramma.Kernels.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\Grammophone.Kernels.XML</DocumentationFile>
     <NoWarn>1591</NoWarn>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
@@ -62,13 +62,13 @@
     <Compile Include="SumKernel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Gramma.Indexing\Gramma.Indexing.csproj">
+    <ProjectReference Include="..\Grammophone.Indexing\Grammophone.Indexing.csproj">
       <Project>{937A024F-5DC5-4CA6-864E-BF5D9CB2E039}</Project>
-      <Name>Gramma.Indexing</Name>
+      <Name>Grammophone.Indexing</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Gramma.Vectors\Gramma.Vectors.csproj">
+    <ProjectReference Include="..\Grammophone.Vectors\Grammophone.Vectors.csproj">
       <Project>{039DA284-52B0-4E55-917E-92F0CD3C5AD9}</Project>
-      <Name>Gramma.Vectors</Name>
+      <Name>Grammophone.Vectors</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

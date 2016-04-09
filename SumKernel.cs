@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Gramma.Kernels
+namespace Grammophone.Kernels
 {
 	/// <summary>
 	/// Kernel that consists of the sum of kernels.

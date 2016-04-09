@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using Gramma.Indexing;
-using Gramma.Indexing.KernelWeightFunctions;
+using Grammophone.Indexing;
+using Grammophone.Indexing.KernelWeightFunctions;
 
 using System.Runtime.Serialization;
 
-namespace Gramma.Kernels
+namespace Grammophone.Kernels
 {
 	/// <summary>
 	/// String kernel. Takes into account all substrings of the string arguments.

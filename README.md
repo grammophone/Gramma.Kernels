@@ -1,4 +1,4 @@
-# Gramma.Kernels
+# Grammophone.Kernels
 This .NET library is used to provide kernels for kernel methods found in machine learning.
 
 The abstract base class `Kernel<T>` expresses the definition of a kernel, where x<sub>1</sub> and x<sub>2</sub> are of type `T` and φ is some function, possibly unknown, which maps items of type `T` to a vector of finite or infinite dimensions:
@@ -28,5 +28,5 @@ The included kernels are:
 * `MappingKernel<T, S>`: Produces a `Kernel<T>` implementation by mapping instances of `T` to instances of `S` and delegating them to a `Kernel<S>` implementation.
 
 This project depends on the following projects, which must reside in sibling directories:
-* [Gramma.Vector](https://github.com/grammophone/Gramma.Vector)
-* [Gramma.Indexing](https://github.com/grammophone/Gramma.Indexing)
+* [Grammophone.Vector](https://github.com/grammophone/Grammophone.Vector)
+* [Grammophone.Indexing](https://github.com/grammophone/Grammophone.Indexing)

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Gramma.Kernels
+namespace Grammophone.Kernels
 {
 	/// <summary>
 	/// Makes a generalized gaussian kernel out of a supplied inner <see cref="Kernel{T}"/>.

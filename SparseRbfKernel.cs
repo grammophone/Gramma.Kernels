@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using Gramma.Vectors;
+using Grammophone.Vectors;
 
-namespace Gramma.Kernels
+namespace Grammophone.Kernels
 {
 	[Serializable]
 	public class SparseRbfKernel : Kernel<SparseVector>
