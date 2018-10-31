@@ -8,7 +8,7 @@ namespace Grammophone.Kernels
 	/// <summary>
 	/// Makes a generalized gaussian kernel out of a supplied inner <see cref="Kernel{T}"/>.
 	/// </summary>
-	/// <typeparam name="T">The type of the kernel, which is also the type of the inner kernel.</typeparam>
+	/// <typeparam name="T">The type of the kernel arguments, which also matches the type of the inner kernel arguments.</typeparam>
 	/// <remarks>
 	/// The common gaussian kernels for vectors are a subcase of this kernel, 
 	/// expressed as <see cref="GaussianKernel{Vector}"/> and <see cref="GaussianKernel{SparseVector}"/>

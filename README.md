@@ -24,7 +24,7 @@ The included kernels are:
 * `ScaledKernel<T>`: Produces a kernel by scaling it with a value which must be positive to preserve the positive-definiteness.
 * `OffsetKernel<T>`: Produces a kernel by adding to it with a value which must be positive to preserve the positive-definiteness.
 * `SumKernel<T>`: Produces a kernel from a sum of other `Kernel<T>` implementations.
-* `GaussianKernel<T>`: Takes as input an arbitrary `Kernel<T>` and 'gaussianizes' it. It is a generalization of `RbfKernel` and `SparseRbfKernel`, which can be seen as `GaussianKernel<Vector>` and `GaussianKernel<SparseVecetor>` respectively.
+* `GaussianKernel<T>`: Takes as input an arbitrary `Kernel<T>` and 'gaussianizes' it. It is a generalization of `RbfKernel` and `SparseRbfKernel` which can be seen as `GaussianKernel<Vector>` and `GaussianKernel<SparseVector>` respectively.
 * `MappingKernel<T, S>`: Produces a `Kernel<T>` implementation by mapping instances of `T` to instances of `S` and delegating them to a `Kernel<S>` implementation.
 
 This project depends on the following projects, which must reside in sibling directories:
