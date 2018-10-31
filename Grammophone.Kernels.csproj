@@ -77,7 +77,9 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Kernel definition.png" />
     <Content Include="Images\Kernels.png" />
+    <Content Include="Images\Representer form.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
