@@ -73,6 +73,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Kernels.cd" />
+    <None Include="LICENSE.md" />
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
