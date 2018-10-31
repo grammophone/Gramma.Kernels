@@ -28,5 +28,5 @@ The included kernels are:
 * `MappingKernel<T, S>`: Produces a `Kernel<T>` implementation by mapping instances of `T` to instances of `S` and delegating them to a `Kernel<S>` implementation.
 
 This project depends on the following projects, which must reside in sibling directories:
-* [Grammophone.Vector](https://github.com/grammophone/Grammophone.Vector)
+* [Grammophone.Vector](https://github.com/grammophone/Grammophone.Vectors)
 * [Grammophone.Indexing](https://github.com/grammophone/Grammophone.Indexing)
